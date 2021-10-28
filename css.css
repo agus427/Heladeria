@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: lightcoral;
+}
+main{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 400px 200px 100px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "Header"
+    "Section"
+    "Section-2"
+    "Footer";
+}
+
+
+/*HEADER*/
+
+/*HEADER*/
+
+/*HEADER*/
+
+.Header { grid-area: Header; 
+background-color: #d1fdff;
+}
+
+#botonera{
+	margin: 0;
+	width: 395px;
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #264d4f;
+	padding-top: 5%;
+	padding-right: 8%;
+	margin-right: 3%;
+}
+
+
+
+/*SECTION*/
+
+/*SECTION*/
+
+/*SECTION*/
+
+.Section { grid-area: Section;
+	background-color: #264d4f;
+}
+
+.Section-2 { grid-area: Section-2;
+	background-color: #7dc4c7;
+}
+
+
+
+
+
+
+
+
+/*FOOOTER*/
+
+/*FOOOTER*/
+
+/*FOOOTER*/
+
+.Footer { grid-area: Footer; 
+background-color: #d1fdff;
+
+}
+
+.logoup{
+	margin-left: 8%;
+	margin-top: 1%;
+	float: left;
+}
+
+.agus{
+	color: #264d4f;
+	float: left;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
